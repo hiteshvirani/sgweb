@@ -2,6 +2,7 @@
 //   'song_1': 'song/005.mp3',
 // }
 
+
 var play = document.getElementById("play");
 var music = document.querySelector("audio");
 const img = document.getElementById("123");
@@ -20,7 +21,6 @@ extraSecond.classList.add("pulse")
 
 play.classList.replace('bi-pause-circle', 'bi-play-circle');
 playSecond.classList.replace('bi-pause-circle', 'bi-play-circle');
-
 
 
 //for pause to play btn
